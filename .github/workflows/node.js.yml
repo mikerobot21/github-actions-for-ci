@@ -35,7 +35,7 @@ jobs:
           name: webpack artifacts
           path: public/
 
-on: [push]
+    needs: build
 
 jobs:
   build:
